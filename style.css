@@ -30,10 +30,108 @@ body {
   padding-left: 2vw;
 }
 
-hr {
+.hr1 {
   margin: 0px;
   margin-top: 3px;
   border: none;
   width: 0.5px;
   background-color: black;
+}
+
+/*--------------------------------------NAVBAR*/
+
+.mainNavBar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 2.5vh;
+padding-bottom: 2.5vh;
+}
+
+#mainPadding {
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+}
+
+.navBtns {
+    display: flex;
+    gap: 0px;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.navBtnsStyle {
+    display: flex;
+    gap: 50px;
+    border: 1px solid black ;
+    width: 7vw;
+    height: 3.5vh;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.one{
+    background-color: greenyellow;
+
+}
+
+.curvedEdgeLeft {
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.curvedEdgeRight {
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.nikeLogoSizing {
+    flex: 1;
+    height: 3.5vh;
+}
+
+.nikeLogo {
+    height: 5vh;
+}
+
+.pfp {
+    height: 5vh;
+}
+
+.pfpSizing {
+    flex: 1;
+    text-align: end;
+}
+
+.hr2 {
+    margin: 0px;
+}
+
+/*--------------------------------------FRONTPAGE*/
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10vh;
+    padding-left: 17.5vw;
+    padding-right: 17.5vw;
+}
+
+h1 {
+    margin: 0px;
+    padding-bottom: 2vh;
+    font-size: 2rem;
+}
+
+.subHead {
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.viewAll {
+    opacity: 50%;
+    font-size: 1rem;
 }
