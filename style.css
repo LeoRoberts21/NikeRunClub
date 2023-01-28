@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    "Poppins", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.nikeNav {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+  align-items: center;
+}
+
+.nikeNavList {
+  display: flex;
+  gap: 1vw;
+  list-style: none;
+  font-size: 0.75rem;
+}
+
+.jordCon {
+  height: 20px;
+}
+
+.conLeft {
+  padding-left: 2vw;
+}
+
+hr {
+  margin: 0px;
+  margin-top: 3px;
+  border: none;
+  width: 0.5px;
+  background-color: black;
+}
