@@ -41,97 +41,134 @@ body {
 /*--------------------------------------NAVBAR*/
 
 .mainNavBar {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 2.5vh;
-padding-bottom: 2.5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
 }
 
 #mainPadding {
-    padding-left: 3.5vw;
-    padding-right: 3.5vw;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
 }
 
 .navBtns {
-    display: flex;
-    gap: 0px;
-    font-size: 1rem;
-    flex: 1;
+  display: flex;
+  gap: 0px;
+  font-size: 0.9rem;
+  flex: 1;
 }
 
 .navBtnsStyle {
-    display: flex;
-    gap: 50px;
-    border: 1px solid black ;
-    width: 7vw;
-    height: 3.5vh;
-    margin: 0px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 50px;
+  border: 1px solid black;
+  width: 7vw;
+  height: 3.25vh;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
 }
 
-.one{
-    background-color: greenyellow;
-
-}
 
 .curvedEdgeLeft {
-    border-top-left-radius: 80px;
-    border-bottom-left-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
 }
 
 .curvedEdgeRight {
-    border-top-right-radius: 80px;
-    border-bottom-right-radius: 80px;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
 }
 
 .nikeLogoSizing {
-    flex: 1;
-    height: 3.5vh;
+  flex: 1;
+  height: 4vh;
 }
 
 .nikeLogo {
-    height: 5vh;
+  height: 5vh;
 }
 
 .pfp {
-    height: 5vh;
+  height: 5vh;
 }
 
 .pfpSizing {
-    flex: 1;
-    text-align: end;
+  flex: 1;
+  text-align: end;
 }
 
 .hr2 {
-    margin: 0px;
+  margin: 0px;
 }
 
 /*--------------------------------------FRONTPAGE*/
 
-
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-top: 10vh;
-    padding-left: 17.5vw;
-    padding-right: 17.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 10vh;
+  padding-left: 17.5vw;
+  padding-right: 17.5vw;
 }
 
 h1 {
-    margin: 0px;
-    padding-bottom: 2vh;
-    font-size: 2rem;
+  margin: 0px;
+  padding-bottom: 1.5vh;
+  font-size: 2rem;
 }
 
 .subHead {
-    margin: 0px;
-    font-size: 1.2rem;
+  margin: 0px;
+  font-size: 1.2rem;
 }
 
 .viewAll {
-    opacity: 50%;
-    font-size: 1rem;
+  opacity: 50%;
+  font-size: 1rem;
 }
+
+.heroImage {
+  height: 60vh;
+  margin-top: 5vh;
+  width: 100%;
+  background: linear-gradient(rgb(249, 139, 67), rgb(255, 206, 128));
+}
+
+.scrollBar {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  padding-top: 1.5vh;
+  padding-bottom: 10vh;
+}
+
+.scrollIndicators {
+  width: 5vw;
+  height: 0.75vh;
+  background-color: rgb(240, 240, 240);
+  border-radius: 100px;
+}
+
+.green {
+    background-color:rgb(205, 255, 40);
+  }
+
+  /*--------------------------------------COMMUNITY*/
+
+  h2 {
+    margin: 0px;
+    padding-bottom: 1.5vh;
+    font-size: 2rem;
+  }
+
+  .community {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 17.5vw;
+    padding-right: 17.5vw;
+  }
