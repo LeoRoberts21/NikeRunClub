@@ -165,7 +165,7 @@ h1 {
     font-size: 2rem;
   }
 
-  .community {
+  .scroll {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -173,16 +173,20 @@ h1 {
     padding-right: 17.5vw;
   }
 
-  .communityScroll {
+  .scrollSection {
     display: flex;
     margin-top: 5vh;
     margin-bottom: 10vh;
-    overflow:scroll;
+    overflow-x:scroll;
     gap: 3vw;
+    margin-left: 3.5vw;
   }
 
+  .nameDistance {
+    line-height: 1vh;
+  }
 
-  .innerCommunityScroll {
+  .innerScroll {
     display: flex;
     flex-direction: column;
     height: fit-content;
@@ -193,10 +197,69 @@ h1 {
     padding-top: 1.5vh;
     gap: 2vw;
     align-items: center;
-    font-weight: bold;
   }
 
-  .communityPic {
+  .scrollPic {
     height: 400px;
     width: 400px;
+    background-color: rgb(249, 139, 67);
+  }
+
+  .viewScrollSection {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+  }
+
+  .scrollBtn {
+    background-color: rgba(241, 241, 241, 0.614);
+    border: none;
+    border-radius: 100px ;
+    height: 5vh;
+    width: 3vw;
+    font-size: 1rem;
+  }
+
+  .activeBtn {
+    background-color:  rgb(235, 235, 235);
+  }
+
+
+
+    /*--------------------------------------COACHSEC*/
+
+  .coachSec {
+padding-top: 10vh;
+background-color: rgb(22, 22, 22);
+  }
+
+  .coachBack {
+    background-color:  rgb(22, 22, 22);
+    margin-top: 0;
+    padding-top: 5vh;
+    margin-bottom: 0px;
+    padding-bottom: 10vh;
+    margin-bottom: 10vh;
+    padding-left: 3.5vw;
+  }
+
+  .coachWhite {
+    color: rgb(255, 255, 255);
+  }
+
+  .btnReverse {
+    background-color: rgba(56, 56, 56, 0.614);
+    color: white;
+  }
+
+  .activeBtnReverse {
+    background-color: rgba(84, 84, 84, 0.614);
+    color: white;
+  }
+
+  .coachScroll {
+    display: flex;
+    margin-bottom: 10vh;
+    overflow-x:scroll;
+    gap: 3vw;
   }
