@@ -172,3 +172,31 @@ h1 {
     padding-left: 17.5vw;
     padding-right: 17.5vw;
   }
+
+  .communityScroll {
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    overflow:scroll;
+    gap: 3vw;
+  }
+
+
+  .innerCommunityScroll {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .innerCommunitySub {
+    display: flex;
+    padding-top: 1.5vh;
+    gap: 2vw;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .communityPic {
+    height: 400px;
+    width: 400px;
+  }
