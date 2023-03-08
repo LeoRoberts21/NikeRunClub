@@ -4,10 +4,11 @@ body {
   padding: 0px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     "Poppins", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background-color: #f0f0f5;
 }
 
 .nikeNav {
-  background-color: rgb(240, 240, 240);
+  background-color: #d9d9dd;;
   display: flex;
   justify-content: space-between;
   padding-left: 3.5vw;
@@ -70,7 +71,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 
 .curvedEdgeLeft {
   border-top-left-radius: 80px;
@@ -154,112 +154,203 @@ h1 {
 }
 
 .green {
-    background-color:rgb(205, 255, 40);
-  }
+  background-color: rgb(205, 255, 40);
+}
 
-  /*--------------------------------------COMMUNITY*/
+/*--------------------------------------COMMUNITY*/
 
-  h2 {
-    margin: 0px;
-    padding-bottom: 1.5vh;
-    font-size: 2rem;
-  }
+h2 {
+  margin: 0px;
+  padding-bottom: 1.5vh;
+  font-size: 2rem;
+}
 
-  .scroll {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-left: 17.5vw;
-    padding-right: 17.5vw;
-  }
+.scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 17.5vw;
+  padding-right: 17.5vw;
+}
 
-  .scrollSection {
-    display: flex;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    overflow-x:scroll;
-    gap: 3vw;
-    margin-left: 3.5vw;
-  }
+.scrollSection {
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  overflow-x: scroll;
+  gap: 3vw;
+  margin-left: 3.5vw;
+}
 
-  .nameDistance {
-    line-height: 1vh;
-  }
+.nameDistance {
+  line-height: 1vh;
+}
 
-  .innerScroll {
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-  }
+.innerScroll {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
 
-  .innerCommunitySub {
-    display: flex;
-    padding-top: 1.5vh;
-    gap: 2vw;
-    align-items: center;
-  }
+.innerCommunitySub {
+  display: flex;
+  padding-top: 1.5vh;
+  gap: 2vw;
+  align-items: center;
+}
 
-  .scrollPic {
-    height: 400px;
-    width: 400px;
-    background-color: rgb(249, 139, 67);
-  }
+.scrollPic {
+  height: 400px;
+  width: 400px;
+  background-color: rgb(249, 139, 67);
+}
 
-  .viewScrollSection {
-    display: flex;
-    gap: 2vw;
-    align-items: center;
-  }
+.viewScrollSection {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
 
-  .scrollBtn {
-    background-color: rgba(241, 241, 241, 0.614);
-    border: none;
-    border-radius: 100px ;
-    height: 5vh;
-    width: 3vw;
-    font-size: 1rem;
-  }
+.scrollBtn {
+  background-color: #d0d0d0;
+  border: none;
+  border-radius: 100px;
+  height: 5vh;
+  width: 3vw;
+  font-size: 1rem;
+}
 
-  .activeBtn {
-    background-color:  rgb(235, 235, 235);
-  }
+.activeBtn {
+  background-color: #b0b0b0;
+}
+
+/*--------------------------------------COACHSEC*/
+
+.coachSec {
+  padding-top: 10vh;
+  background-color: rgb(22, 22, 22);
+}
+
+.coachBack {
+  background-color: rgb(22, 22, 22);
+  margin-top: 0;
+  padding-top: 5vh;
+  margin-bottom: 0px;
+  padding-bottom: 10vh;
+  margin-bottom: 10vh;
+  padding-left: 3.5vw;
+}
+
+.coachWhite {
+  color: rgb(255, 255, 255);
+}
+
+.btnReverse {
+  background-color: rgba(56, 56, 56, 0.614);
+  color: white;
+}
+
+.activeBtnReverse {
+  background-color: rgba(84, 84, 84, 0.614);
+  color: white;
+}
+
+.coachScroll {
+  display: flex;
+  margin-bottom: 10vh;
+  overflow-x: scroll;
+  gap: 3vw;
+}
 
 
+/*--------------------------------------BOTTOMSEC*/
 
-    /*--------------------------------------COACHSEC*/
+button {
+  font-family: "Poppins", sans-serif;
+  width: auto;
+  font-size: 1rem;
+  align-self: center;
+  background-color: #1f1f29;
+  border: 1px #1f1f29 solid;
+  border-radius: 50px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 1vh ;
+  color: #f0f0f5;
+}
 
-  .coachSec {
-padding-top: 10vh;
-background-color: rgb(22, 22, 22);
-  }
+.bottom-link-section {
+  padding-left: 17.5vw;
+  padding-right: 17.5vw;
+}
 
-  .coachBack {
-    background-color:  rgb(22, 22, 22);
-    margin-top: 0;
-    padding-top: 5vh;
-    margin-bottom: 0px;
-    padding-bottom: 10vh;
-    margin-bottom: 10vh;
-    padding-left: 3.5vw;
-  }
+.bottomImage {
+  height: 60vh;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  width: 100%;
+  background: linear-gradient(rgb(249, 139, 67), rgb(255, 206, 128));
+}
 
-  .coachWhite {
-    color: rgb(255, 255, 255);
-  }
+.bottomText {
+  font-size: 1.2rem;
+}
 
-  .btnReverse {
-    background-color: rgba(56, 56, 56, 0.614);
-    color: white;
-  }
 
-  .activeBtnReverse {
-    background-color: rgba(84, 84, 84, 0.614);
-    color: white;
-  }
+/*--------------------------------------FOOTER*/
 
-  .coachScroll {
-    display: flex;
-    margin-bottom: 10vh;
-    overflow-x:scroll;
-    gap: 3vw;
-  }
+footer {
+  margin-top: 15vh;
+
+  background-color: rgb(22, 22, 22)
+}
+
+.footer-lists {
+  padding: 3.5vw;
+  display: flex;
+  list-style: none;
+  font-size: 0.75rem;
+  gap: 3vw;
+}
+
+.footerTitle {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
+  color: #f0f0f5;
+}
+
+footer li {
+  padding-top: 1vw;
+}
+
+.footerBottomLeft {
+  display: flex;
+  gap: 3.5vw;
+  padding-left: 3.5vw;
+  color: #f0f0f5;
+  font-size: 0.75rem;
+  opacity: 50%;
+  flex: 1;
+}
+
+.footerBottomRight {
+  display: flex;
+  gap: 3.5vw;
+  padding-right: 3.5vw;
+  color: #f0f0f5;
+  font-size: 0.75rem;
+  opacity: 50%;
+  flex: 1;
+  line-height: 3vh;
+}
+
+.footerBottom {
+  display: flex;
+  padding-left: 3vw;
+}
