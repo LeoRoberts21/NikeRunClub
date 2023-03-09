@@ -8,7 +8,7 @@ body {
 }
 
 .nikeNav {
-  background-color: #d9d9dd;
+  background-color: #ebebeb;
   display: flex;
   justify-content: space-between;
   padding-left: 3.5vw;
@@ -364,7 +364,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #f8f8f8;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -405,4 +405,9 @@ body {
 .comBox {
   flex-direction: column;
   height: 50vh;
+}
+
+.mySwiper3 {
+  height: 80vh;
+  padding-bottom: 8vh;
 }

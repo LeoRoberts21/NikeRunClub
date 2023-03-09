@@ -12,7 +12,7 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-//SWIPER 2
+//SWIPER
 
 var swiper = new Swiper(".mySwiper2", {
   slidesPerView: 3,
@@ -25,5 +25,22 @@ var swiper = new Swiper(".mySwiper2", {
   navigation: {
     nextEl: ".activeBtn",
     prevEl: ".backBtn",
+  },
+});
+
+var swiper = new Swiper(".mySwiper3", {
+  slidesPerView: 1,
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".activeBtn",
+    prevEl: ".backBtn",
+  },
+  autoplay: {
+    delay: 2500,
   },
 });
