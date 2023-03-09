@@ -5,6 +5,7 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     "Poppins", Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: #f8f8f8;
+  overflow-x: hidden;
 }
 
 .nikeNav {
@@ -70,6 +71,7 @@ body {
   margin: 0px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .curvedEdgeLeft {
@@ -102,6 +104,10 @@ body {
 
 .hr2 {
   margin: 0px;
+}
+
+.navBtnsStyle:hover {
+  background-color:  rgb(205, 255, 40);
 }
 
 /*--------------------------------------FRONTPAGE*/

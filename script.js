@@ -44,3 +44,50 @@ var swiper = new Swiper(".mySwiper3", {
     delay: 2500,
   },
 });
+
+
+// ----------------------------------------HOVER
+
+let homeBtn = document.querySelector(".homeBtn")
+let plansBtn = document.querySelector(".plansBtn")
+let clubBtn = document.querySelector(".clubBtn")
+let activityBtn = document.querySelector(".activityBtn")
+
+const homeHover = function () {
+  homeBtn.classList.add("green");
+  plansBtn.classList.remove("green");
+  clubBtn.classList.remove("green");
+  activityBtn.classList.remove("green");
+};
+
+const plansHover = function () {
+  homeBtn.classList.remove("green");
+  plansBtn.classList.add("green");
+  clubBtn.classList.remove("green");
+  activityBtn.classList.remove("green");
+};
+
+const clubHover = function () {
+  homeBtn.classList.remove("green");
+  plansBtn.classList.remove("green");
+  clubBtn.classList.add("green");
+  activityBtn.classList.remove("green");
+};
+
+const activityHover = function () {
+  homeBtn.classList.remove("green");
+  plansBtn.classList.remove("green");
+  clubBtn.classList.remove("green");
+  activityBtn.classList.add("green");
+};
+
+
+homeBtn.addEventListener("mouseover", homeHover);
+plansBtn.addEventListener("mouseover", plansHover);
+clubBtn.addEventListener("mouseover", clubHover);
+activityBtn.addEventListener("mouseover", activityHover);
+
+homeBtn.addEventListener("mouseleave", homeHover);
+plansBtn.addEventListener("mouseleave", homeHover);
+clubBtn.addEventListener("mouseleave", homeHover);
+activityBtn.addEventListener("mouseleave", homeHover);
