@@ -30,15 +30,11 @@ var swiper = new Swiper(".mySwiper2", {
 
 var swiper = new Swiper(".mySwiper3", {
   slidesPerView: 1,
-  spaceBetween: 50,
+  spaceBetween: 60,
   loop: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  },
-  navigation: {
-    nextEl: ".activeBtn",
-    prevEl: ".backBtn",
   },
   autoplay: {
     delay: 2500,
