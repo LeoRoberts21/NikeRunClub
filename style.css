@@ -159,8 +159,8 @@ h1 {
   height: 80vh;
   margin-top: 5vh;
   width: 100%;
-  background: linear-gradient(rgb(249, 139, 67), rgb(255, 206, 128));
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .scrollBar {
@@ -226,7 +226,6 @@ h2 {
 .scrollPic {
   height: 400px;
   width: 400px;
-  background-color: rgb(249, 139, 67);
 }
 
 .viewScrollSection {
@@ -312,7 +311,6 @@ button {
   margin-top: 5vh;
   margin-bottom: 3vh;
   width: 100%;
-  background: linear-gradient(rgb(249, 139, 67), rgb(255, 206, 128));
 }
 
 .bottomText {

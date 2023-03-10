@@ -16,7 +16,7 @@
 .mainPlanSection {
   width: 100%;
   padding-top: 3.5vh;
-  padding-bottom: 50vh;
+  padding-bottom: 7vh;
 }
 
 .mainPlanSection span{
@@ -24,6 +24,7 @@
   border-radius: 15px;
   height: 50vh;
   max-width: 26.5;
+  cursor: pointer;
 }
 
 
@@ -33,4 +34,58 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   object-fit: cover;
+  filter: brightness(65%);
 }
+
+.trainingParagraph {
+  padding-top: 3.5vh;
+  padding-left: 17.6vw;
+  padding-right: 17.6vw;
+}
+
+.planTop h2 {
+  position: absolute;
+  bottom: 29vh;
+  padding-left: 1vw;
+  font-weight: 450;
+  color: white;
+}
+
+.planBottom h2 {
+  position: absolute;
+  bottom: -26.5vh;
+  padding-left: 1vw;
+  font-weight: 450;
+  color: rgb(255, 255, 255);
+}
+
+/*----------------------TIPS-------------------*/
+
+.tipsSection {
+  padding-left: 17.6vw;
+  padding-right: 17.6vw;
+  padding-bottom: 3.5vh;
+}
+
+hr {
+  margin-bottom: 9vh;
+  margin-right: 17.6vw;
+  margin-left: 17.6vw;
+}
+
+.tips {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tips span {
+  width: 12vw;
+  padding-top: 3.5vh;
+}
+
+.tips img {
+  width: 1vw;
+}
+
+/*----------------------BOTTOM-------------------*/
+
