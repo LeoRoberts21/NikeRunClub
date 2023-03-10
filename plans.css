@@ -1,0 +1,36 @@
+.planTop {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 17.5vw;
+  padding-right: 17.5vw;
+}
+
+.planBottom {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 17.5vw;
+  padding-right: 17.5vw;
+  padding-top: 3.5vw;
+}
+
+.mainPlanSection {
+  width: 100%;
+  padding-top: 3.5vh;
+  padding-bottom: 50vh;
+}
+
+.mainPlanSection span{
+  border: 1px black solid;
+  border-radius: 15px;
+  height: 50vh;
+  max-width: 26.5;
+}
+
+
+.trainingImg {
+  width: 26.5vw;
+  height: 35vh;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
