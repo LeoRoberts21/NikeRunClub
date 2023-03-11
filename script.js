@@ -92,22 +92,37 @@ activityBtn.addEventListener("mouseleave", homeHover);
 
 // ----------------------------PROJECT-SWITCH------------
 
-const codeBtn = document.querySelector(".codeBtn");
-const designBtn = document.querySelector(".designBtn");
+const leaderboardButton = document.querySelector(".leaderboardButton");
+const challengeButton = document.querySelector(".challengeButton");
 
-const codeModal = document.querySelector(".codeModal");
-const designModal = document.querySelector(".designModal");
+const leaderboardModal = document.querySelector(".leaderboardModal");
+const challengeModal = document.querySelector(".challengeModal");
 
-const showCode = function () {
-  codeModal.classList.remove("hidden");
-  designModal.classList.add("hidden");
+const showLeaderboard = function () {
+  challengeModal.classList.add("hidden");
+  leaderboardModal.classList.remove("hidden");
 };
 
-const showDesign = function () {
-  designModal.classList.remove("hidden");
-  codeModal.classList.add("hidden");
+const showChallenge = function () {
+  leaderboardModal.classList.add("hidden");
+  challengeModal.classList.remove("hidden");
 };
 
-designBtn.addEventListener("click", showDesign);
+leaderboardButton.addEventListener("click", showLeaderboard);
 
-codeBtn.addEventListener("click", showCode);
+challengeButton.addEventListener("click", showChallenge);
+
+/*--------------------BUTTON-COLOUR-CHANGE---------------*/
+
+const challengeFunc = function () {
+  leaderboardButton.classList.add("btnOpacity");
+  challengeButton.classList.remove("btnOpacity");
+};
+
+const leaderboardFunc = function () {
+  leaderboardButton.classList.remove("btnOpacity");
+  challengeButton.classList.add("btnOpacity");
+};
+
+leaderboardButton.addEventListener("click", leaderboardFunc);
+challengeButton.addEventListener("click", challengeFunc);

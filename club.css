@@ -9,11 +9,6 @@ header h1 {
   font-weight: 500;
 }
 
-.headOpacity {
-  opacity: 60%;
-  color: rgb(165, 165, 165);
-}
-
 .distance {
   margin-top: 3.5vh;
   margin-bottom: 0px;
@@ -77,4 +72,17 @@ header h1 {
 
 .greenHover:hover {
   background-color:  rgba(201, 255, 22, 0.639);
+}
+
+.hidden {
+  display: none;
+}
+
+.btnOpacity {
+  opacity: 60%;
+  color: rgb(165, 165, 165);
+}
+
+.leaderboardButton:hover, .challengeButton:hover {
+text-decoration: underline;
 }
