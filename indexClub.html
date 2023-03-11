@@ -1,240 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NRC</title>
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="club.css" />
+    <link rel="icon" type="image/png" href="/Images/swoosh.jpeg" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NRC</title>
-  <!--SWIPER-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="club.css">
-  <link rel="icon" type="image/png" href="/Images/swoosh.jpeg">
-</head>
-
-<body>
-  <!--VERY TOP BAR------------------------------->
-  <section class="nikeNav">
-    <span class="topLogos">
-      <img class="jordCon" src="Images/jordanJumpman.png" alt="Jordan" />
-      <img class="jordCon conLeft" src="Images/converse.png" alt="Converse" />
-    </span>
-    <ul class="nikeNavList">
-      <li>Find a Store</li>
-      <hr class="hr1" />
-      <li>Help</li>
-      <hr class="hr1" />
-      <li>Join Us</li>
-      <hr class="hr1" />
-      <li>Sign in</li>
-    </ul>
-  </section>
-
-  <div id="mainPadding">
-    <!--NAV BAR------------------------------------->
-    <section class="mainNavBar">
-      <nav class="nikeLogoSizing">
-        <img class="nikeLogo" src="Images/NRC 1 1.png" alt="NIKE LOGO" />
-      </nav>
-      <span class="navBtns">
-        <a href="index.html">
-          <nav class="navBtnsStyle curvedEdgeLeft homeBtn">
-            <p>Home</p>
-          </nav>
-        </a>
-        <a href="indexPlans.html">
-          <nav class="navBtnsStyle plansBtn">
-            <p>Plans</p>
-          </nav>
-        </a>
-        <a href="indexClub.html">
-          <nav class="navBtnsStyle green clubBtn">
-            <p>Club</p>
-
-          </nav>
-        </a>
-        <a href="indexActivity.html">
-          <nav class="navBtnsStyle curvedEdgeRight activityBtn">
-            <p>Activity</p>
-          </nav>
-        </a>
+  <body>
+    <!--VERY TOP BAR------------------------------->
+    <section class="nikeNav">
+      <span class="topLogos">
+        <img class="jordCon" src="Images/jordanJumpman.png" alt="Jordan" />
+        <img class="jordCon conLeft" src="Images/converse.png" alt="Converse" />
       </span>
-      <nav class="pfpSizing">
-        <img class="pfp" src="Images/pfp.png" alt="ProfilePic" />
-      </nav>
+      <ul class="nikeNavList">
+        <li>Find a Store</li>
+        <hr class="hr1" />
+        <li>Help</li>
+        <hr class="hr1" />
+        <li>Join Us</li>
+        <hr class="hr1" />
+        <li>Sign in</li>
+      </ul>
     </section>
 
-    <hr class="hr2">
-
-    <header>
-      <div>
-        <h1 style="cursor: pointer" class="leaderboardButton">Leaderboard</h1>
-      </div>
-      <h1 style="cursor: pointer" class="challengeButton btnOpacity">Challenges</h1>
-    </header>
-
-
-    <section class="leaderboardModal ">
-
-      <section class="ranThisMonth">
-        <p class="distance">26.49</p>
-        <p class="km">km</p>
-        <p class="place">1st Place</p>
+    <div id="mainPadding">
+      <!--NAV BAR------------------------------------->
+      <section class="mainNavBar">
+        <nav class="nikeLogoSizing">
+          <img class="nikeLogo" src="Images/NRC 1 1.png" alt="NIKE LOGO" />
+        </nav>
+        <span class="navBtns">
+          <a href="index.html">
+            <nav class="navBtnsStyle curvedEdgeLeft homeBtn">
+              <p>Home</p>
+            </nav>
+          </a>
+          <a href="indexPlans.html">
+            <nav class="navBtnsStyle plansBtn">
+              <p>Plans</p>
+            </nav>
+          </a>
+          <a href="indexClub.html">
+            <nav class="navBtnsStyle green clubBtn">
+              <p>Club</p>
+            </nav>
+          </a>
+          <a href="indexActivity.html">
+            <nav class="navBtnsStyle curvedEdgeRight activityBtn">
+              <p>Activity</p>
+            </nav>
+          </a>
+        </span>
+        <nav class="pfpSizing">
+          <img class="pfp" src="Images/pfp.png" alt="ProfilePic" />
+        </nav>
       </section>
 
+      <hr class="hr2" />
 
-
-      <section>
-        <div style="padding-left: 24.5vw" class="leaderboardSection">
-          <span class="leaderRight">
-            <p><b>Pace</b></p>
-            <p><b>&nbsp;&nbsp;&nbsp;Km</b></p>
-            <p><b>Time&nbsp;&nbsp;&nbsp;&nbsp;</b></p>
-          </span>
+      <header>
+        <div>
+          <h1 style="cursor: pointer" class="leaderboardButton">Leaderboard</h1>
         </div>
-        <div class="leaderboardSection topGreen greenHover">
-          <span class="leaderLeft">
-            <p>1</p>
-            <img class="pfp leaderPfp" src="Images/pfp.png" alt="ProfilePic" />
-            <p>Leo Roberts</p>
-          </span>
-          <span class="leaderRight">
-            <p>"6'19"</p>
-            <p>63</p>
-            <p>6.21.30</p>
-          </span>
+        <h1 style="cursor: pointer" class="challengeButton btnOpacity">
+          Challenges
+        </h1>
+      </header>
+
+      <section class="leaderboardModal">
+        <section class="ranThisMonth">
+          <p class="distance">26.49</p>
+          <p class="km">km</p>
+          <p class="place">1st Place</p>
+        </section>
+
+        <section>
+          <div style="padding-left: 24.5vw" class="leaderboardSection">
+            <span class="leaderRight">
+              <p><b>Pace</b></p>
+              <p><b>&nbsp;&nbsp;&nbsp;Km</b></p>
+              <p><b>Time&nbsp;&nbsp;&nbsp;&nbsp;</b></p>
+            </span>
+          </div>
+          <div class="leaderboardSection topGreen greenHover">
+            <span class="leaderLeft">
+              <p>1</p>
+              <img
+                class="pfp leaderPfp"
+                src="Images/pfp.png"
+                alt="ProfilePic"
+              />
+              <p>Leo Roberts</p>
+            </span>
+            <span class="leaderRight">
+              <p>"6'19"</p>
+              <p>63</p>
+              <p>6.21.30</p>
+            </span>
+          </div>
+          <div class="leaderboardSection greyHover">
+            <span class="leaderLeft">
+              <p>1</p>
+              <img
+                class="pfp leaderPfp"
+                src="Images/pfp.png"
+                alt="ProfilePic"
+              />
+              <p>Leo Roberts</p>
+            </span>
+            <span class="leaderRight">
+              <p>"6'19"</p>
+              <p>63</p>
+              <p>6.21.30</p>
+            </span>
+          </div>
+          <div class="leaderboardSection greyHover">
+            <span class="leaderLeft">
+              <p>1</p>
+              <img
+                class="pfp leaderPfp"
+                src="Images/pfp.png"
+                alt="ProfilePic"
+              />
+              <p>Leo Roberts</p>
+            </span>
+            <span class="leaderRight">
+              <p>"6'19"</p>
+              <p>63</p>
+              <p>6.21.30</p>
+            </span>
+          </div>
+          <div class="leaderboardSection greyHover">
+            <span class="leaderLeft">
+              <p>1</p>
+              <img
+                class="pfp leaderPfp"
+                src="Images/pfp.png"
+                alt="ProfilePic"
+              />
+              <p>Leo Roberts</p>
+            </span>
+            <span class="leaderRight">
+              <p>"6'19"</p>
+              <p>63</p>
+              <p>6.21.30</p>
+            </span>
+          </div>
+          <div class="leaderboardSection greyHover">
+            <span class="leaderLeft">
+              <p>1</p>
+              <img
+                class="pfp leaderPfp"
+                src="Images/pfp.png"
+                alt="ProfilePic"
+              />
+              <p>Leo Roberts</p>
+            </span>
+            <span class="leaderRight">
+              <p>"6'19"</p>
+              <p>63</p>
+              <p>6.21.30</p>
+            </span>
+          </div>
+        </section>
+      </section>
+
+      <section class="challengeModal hidden">
+       <div class="heroImage challengeImg">
+        <img
+        class="challengeHero"
+        src="challenges/march100k.png"
+        alt="ChallengeBadge"
+      />
+      <p>Join 46,906 runners</p>
+       </div>
+        <span class="buttonFlex">
+          <button href="">Create a Challenge</button>
+        </span>
+
+        <h2 class="myChallenges">My Challenges</h2>
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march5k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march10k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march15k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march25k.png"
+              alt="ChallengeBadge"
+            />
+            <p>
+              March Weekly<br />
+              Challenge
+            </p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march30k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march50k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/feb75k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/feb100k.png"
+              alt="ChallengeBadge"
+            />
+            <p>
+              March Weekly <br />
+              Challenge
+            </p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
         </div>
-        <div class="leaderboardSection greyHover">
-          <span class="leaderLeft">
-            <p>1</p>
-            <img class="pfp leaderPfp" src="Images/pfp.png" alt="ProfilePic" />
-            <p>Leo Roberts</p>
-          </span>
-          <span class="leaderRight">
-            <p>"6'19"</p>
-            <p>63</p>
-            <p>6.21.30</p>
-          </span>
+
+        <hr
+          style="margin-top: 7vh; margin-left: 17.6vw; margin-right: 17.6vw"
+        />
+
+        <h2 class="myChallenges">Join a Challenge</h2>
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/feb15k.png"
+              alt="ChallengeBadge"
+            />
+            <p>February Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/feb10k.png"
+              alt="ChallengeBadge"
+            />
+            <p>February Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march75k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/march100k.png"
+              alt="ChallengeBadge"
+            />
+            <p>
+              March Weekly <br />
+              Challenge
+            </p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
         </div>
-        <div class="leaderboardSection greyHover">
-          <span class="leaderLeft">
-            <p>1</p>
-            <img class="pfp leaderPfp" src="Images/pfp.png" alt="ProfilePic" />
-            <p>Leo Roberts</p>
-          </span>
-          <span class="leaderRight">
-            <p>"6'19"</p>
-            <p>63</p>
-            <p>6.21.30</p>
-          </span>
+        <hr
+          style="margin-top: 7vh; margin-left: 17.6vw; margin-right: 17.6vw"
+        />
+
+        <span class="previousView">
+          <h2 class="myChallenges">Previous Challenges</h2>
+          <p class="viewAll">View All</p>
+        </span>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan5k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan10k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan15k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan25k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan30k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan50k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan75k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
+          <div class="grid-item">
+            <img
+              class="gridImage"
+              src="challenges/jan100k.png"
+              alt="ChallengeBadge"
+            />
+            <p>March Weekly Challenge</p>
+            <p class="gridBottomText">Run 10km this week.</p>
+            <p class="gridBottomText">1 day left</p>
+          </div>
         </div>
-        <div class="leaderboardSection greyHover">
-          <span class="leaderLeft">
-            <p>1</p>
-            <img class="pfp leaderPfp" src="Images/pfp.png" alt="ProfilePic" />
-            <p>Leo Roberts</p>
-          </span>
-          <span class="leaderRight">
-            <p>"6'19"</p>
-            <p>63</p>
-            <p>6.21.30</p>
-          </span>
-        </div>
-        <div class="leaderboardSection greyHover">
-          <span class="leaderLeft">
-            <p>1</p>
-            <img class="pfp leaderPfp" src="Images/pfp.png" alt="ProfilePic" />
-            <p>Leo Roberts</p>
-          </span>
-          <span class="leaderRight">
-            <p>"6'19"</p>
-            <p>63</p>
-            <p>6.21.30</p>
-          </span>
-        </div>
-  </section>
-
-  </section>
-
-  <section class="challengeModal">
-
-
-  </section>
-
-
-
-
-</div>
-
-  <!--FOOTER---------------------------------->
-  <footer>
-    <div class="footer-lists">
-      <ul>
-        <li class="footerTitle">GIFT CARDS</li>
-        <li class="footerTitle">FIND A STORE</li>
-        <li class="footerTitle">NIKE JOURNAL</li>
-        <li class="footerTitle">BECOME A MEMBER</li>
-        <li class="footerTitle">STUDENT DISCOUNT</li>
-        <li class="footerTitle">FEEDBACK</li>
-        <li class="footerTitle">PROMO CODES</li>
-      </ul>
-      <ul>
-        <li class="footerTitle">GET HELP</li>
-        <li class="footerBody">Order Status</li>
-        <li class="footerBody">Shipping and Delivery</li>
-        <li class="footerBody">Returns</li>
-        <li class="footerBody">Payment Options</li>
-        <li class="footerBody">Contact Us</li>
-        <li class="footerBody">Nike Promo Codes Help</li>
-      </ul>
-
-      <ul>
-        <li class="footerTitle">ABOUT NIKE</li>
-        <li class="footerBody">News</li>
-        <li class="footerBody">Careers</li>
-        <li class="footerBody">Investors</li>
-        <li class="footerBody">Sustainability</li>
-        <li class="footerBody">UK Tax</li>
-        <li class="footerBody">UK Pension Statement</li>
-        <li class="footerBody">UK Pension SIP</li>
-      </ul>
-
-      <ul>
-        <li class="footerTitle">JOIN US</li>
-        <li class="footerBody">Nike App</li>
-        <li class="footerBody">Nike Run Club</li>
-        <li class="footerBody">Nike Training App</li>
-        <li class="footerBody">SNKRS</li>
-      </ul>
+      </section>
     </div>
 
+    <!--FOOTER---------------------------------->
+    <footer>
+      <div class="footer-lists">
+        <ul>
+          <li class="footerTitle">GIFT CARDS</li>
+          <li class="footerTitle">FIND A STORE</li>
+          <li class="footerTitle">NIKE JOURNAL</li>
+          <li class="footerTitle">BECOME A MEMBER</li>
+          <li class="footerTitle">STUDENT DISCOUNT</li>
+          <li class="footerTitle">FEEDBACK</li>
+          <li class="footerTitle">PROMO CODES</li>
+        </ul>
+        <ul>
+          <li class="footerTitle">GET HELP</li>
+          <li class="footerBody">Order Status</li>
+          <li class="footerBody">Shipping and Delivery</li>
+          <li class="footerBody">Returns</li>
+          <li class="footerBody">Payment Options</li>
+          <li class="footerBody">Contact Us</li>
+          <li class="footerBody">Nike Promo Codes Help</li>
+        </ul>
 
+        <ul>
+          <li class="footerTitle">ABOUT NIKE</li>
+          <li class="footerBody">News</li>
+          <li class="footerBody">Careers</li>
+          <li class="footerBody">Investors</li>
+          <li class="footerBody">Sustainability</li>
+          <li class="footerBody">UK Tax</li>
+          <li class="footerBody">UK Pension Statement</li>
+          <li class="footerBody">UK Pension SIP</li>
+        </ul>
 
-    <div class="footerBottom">
-      <div class="footerBottomLeft">
-        <p>United Kingdom</p>
-        <p>© 2023 Nike Inc, All Rights Reserved</p>
+        <ul>
+          <li class="footerTitle">JOIN US</li>
+          <li class="footerBody">Nike App</li>
+          <li class="footerBody">Nike Run Club</li>
+          <li class="footerBody">Nike Training App</li>
+          <li class="footerBody">SNKRS</li>
+        </ul>
       </div>
 
-      <div class="footerBottomRight">
-        <p>Guides &nbsp;&nbsp;&nbsp;
-          Terms of Use &nbsp;&nbsp;&nbsp;
-          Terms of Sale &nbsp;&nbsp;&nbsp;
-          Company Details &nbsp;&nbsp;&nbsp;
-          UK Modern Slavery Act Disclosure &nbsp;&nbsp;&nbsp;
-          <br>
-          Privacy & Cookie Policy &nbsp;&nbsp;&nbsp;
-          Cookie Settings
-        </p>
+      <div class="footerBottom">
+        <div class="footerBottomLeft">
+          <p>United Kingdom</p>
+          <p>© 2023 Nike Inc, All Rights Reserved</p>
+        </div>
 
+        <div class="footerBottomRight">
+          <p>
+            Guides &nbsp;&nbsp;&nbsp; Terms of Use &nbsp;&nbsp;&nbsp; Terms of
+            Sale &nbsp;&nbsp;&nbsp; Company Details &nbsp;&nbsp;&nbsp; UK Modern
+            Slavery Act Disclosure &nbsp;&nbsp;&nbsp;
+            <br />
+            Privacy & Cookie Policy &nbsp;&nbsp;&nbsp; Cookie Settings
+          </p>
+        </div>
       </div>
-    </div>
-
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="script.js"></script>
-  <script src="club.js"></script>
-</body>
-
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="club.js"></script>
+  </body>
 </html>

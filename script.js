@@ -124,5 +124,6 @@ const leaderboardFunc = function () {
   challengeButton.classList.add("btnOpacity");
 };
 
+
 leaderboardButton.addEventListener("click", leaderboardFunc);
 challengeButton.addEventListener("click", challengeFunc);
