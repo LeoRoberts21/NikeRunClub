@@ -1,0 +1,186 @@
+header {
+  padding-left: 17.6vw;
+  padding-right: 17.6vw;
+}
+
+.add-run-button {
+  border: 1px black solid;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 2.5vw;
+  height: 2.5vw;
+  text-align: center;
+  line-height: 2.25vw;
+}
+
+.add-run-button:hover {
+  background-color: #1f1f29;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.buttonFlex button {
+  background-color: #f8f8f8;
+  color: black;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
+}
+
+.buttonFlex button:hover {
+  background-color: black;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+
+.activity-picture {
+  display: flex;
+  width: 100%;
+  margin-top: 3.5vh;
+  margin-bottom: 3.5vh;
+  height:30vh;
+  background-color: rgb(241, 240, 240);
+  border-radius: 15px;
+}
+
+
+.activity-pics {
+  padding-left: 17.6vw;
+  padding-right: 17.6vw;
+}
+
+.right-run {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2vw;
+  justify-content: center;
+}
+.buttonFlex {
+  justify-content: center;
+  display: flex;
+  padding-top: 2vw;
+}
+
+
+.run-date {
+
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-bottom: 1vh;
+}
+
+.run-title {
+  font-size: 1rem;
+  margin-top: 0px;
+  opacity: 50%;
+}
+
+.route {
+  margin: 2vw;
+  border-radius: 15px;
+  box-shadow: 0px 10px 10px 5px rgba(122, 122, 122, 0.169);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 15.6vw;
+  padding-right: 15.6vw;
+  padding-top: 5vh;
+}
+.grid-item {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 1vw;
+  text-align: center;
+  aspect-ratio: 1;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+}
+.gridImage {
+  height: 15.5vh;
+}
+
+.gridBottomText {
+  font-size: 0.75rem;
+  opacity: 60%;
+  color: rgb(124, 124, 124);
+}
+
+.bottomImages {
+padding-left: 17.6vw;
+padding-right: 17.6vw;
+}
+
+.bottomImage {
+  width: 61.5%;
+}
+
+/*------------------TOP STATS--------------*/
+
+.month-selector {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.month-selector span {
+  position: relative;
+  bottom: 0.5vh;
+  left: 0.5vw;
+  cursor: pointer;
+}
+
+.top-section {
+  padding-top: 10vh;
+  display: flex;
+  gap: 5vw;
+}
+
+.left-stats {
+  padding-left: 17.6vw;
+}
+
+.hr3 {
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  margin-right: 17.6vw;
+  margin-left: 17.6vw;
+}
+
+.hr4 {
+  margin-top: 14vh;
+  margin-bottom: 14vh;
+  margin-right: 17.6vw;
+  margin-left: 17.6vw;
+}
+
+.km-number {
+  font-size: 6rem;
+  margin-bottom: 0vh;
+  margin-top: 1vh;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.left-overalls {
+  display: flex;
+  gap: 2vw;
+}
+
+.overall-descript {
+  opacity: 50%;
+  margin-top: 1vh;
+}
+
+.overall-numbers {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0%;
+}
+
+#myChart {
+  width: 100%;
+  width: 500px;
+  padding-top: 7.5vh;
+}

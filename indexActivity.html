@@ -11,6 +11,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="activity.css" />
     <link rel="icon" type="image/png" href="/Images/swoosh.jpeg" />
   </head>
 
@@ -50,7 +51,7 @@
             </nav>
           </a>
           <a href="indexClub.html">
-            <nav class="navBtnsStyle lubBtn">
+            <nav class="navBtnsStyle clubBtn">
               <p>Club</p>
             </nav>
           </a>
@@ -67,14 +68,246 @@
 
       <hr class="hr2" />
 
+      <section class="top-section">
+        <div class="left-stats">
+          <p class="month-selector">January 2023 <span>⌵</span></p>
+
+          <span>
+            <p class="km-number">36.5</p>
+            <p class="overall-descript">Kilometers</p>
+          </span>
+
+          <div class="left-overalls">
+            <span>
+              <p class="overall-numbers">9</p>
+              <p class="overall-descript">Runs</p>
+            </span>
+            <span>
+              <p class="overall-numbers">6"37"</p>
+              <p class="overall-descript">Avg. Pace</p>
+            </span>
+            <span>
+              <p class="overall-numbers">4:01:20</p>
+              <p class="overall-descript">Time</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="right-stats">
+           <canvas id="myChart"></canvas> 
+        </div>
+      </section>
+
+      <hr class="hr3" />
+
+      <header>
+        <div>
+          <h1 class="recentActivity">Recent Activity</h1>
+        </div>
+        <p class="add-run-button">+</p>
+      </header>
+      <section class="activity-pics">
+        <div class="activity-picture">
+          <img class="route" src="Images/map4.png" alt="map-pic" />
+
+          <div class="right-run">
+            <div>
+              <span>
+                <p class="run-date">26 / 02 / 23</p>
+                <p class="run-title">Morning Run - 10k Tempo run</p>
+              </span>
+            </div>
+
+            <div class="left-overalls run-stats">
+              <span>
+                <p class="overall-numbers">10.2</p>
+                <p class="overall-descript">Km</p>
+              </span>
+              <span>
+                <p class="overall-numbers">6"04"</p>
+                <p class="overall-descript">Avg. Pace</p>
+              </span>
+              <span>
+                <p class="overall-numbers">1:01:20</p>
+                <p class="overall-descript">Time</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="activity-picture">
+          <img class="route" src="Images/map4.png" alt="map-pic" />
+
+          <div class="right-run">
+            <div>
+              <span>
+                <p class="run-date">26 / 02 / 23</p>
+                <p class="run-title">Morning Run - 10k Tempo run</p>
+              </span>
+            </div>
+
+            <div class="left-overalls run-stats">
+              <span>
+                <p class="overall-numbers">10.2</p>
+                <p class="overall-descript">Km</p>
+              </span>
+              <span>
+                <p class="overall-numbers">6"04"</p>
+                <p class="overall-descript">Avg. Pace</p>
+              </span>
+              <span>
+                <p class="overall-numbers">1:01:20</p>
+                <p class="overall-descript">Time</p>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="activity-picture">
+          <img class="route" src="Images/map4.png" alt="map-pic" />
+
+          <div class="right-run">
+            <div>
+              <span>
+                <p class="run-date">26 / 02 / 23</p>
+                <p class="run-title">Morning Run - 10k Tempo run</p>
+              </span>
+            </div>
+
+            <div class="left-overalls run-stats">
+              <span>
+                <p class="overall-numbers">10.2</p>
+                <p class="overall-descript">Km</p>
+              </span>
+              <span>
+                <p class="overall-numbers">6"04"</p>
+                <p class="overall-descript">Avg. Pace</p>
+              </span>
+              <span>
+                <p class="overall-numbers">1:01:20</p>
+                <p class="overall-descript">Time</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <span class="buttonFlex">
+        <button href="">All Activity</button>
+      </span>
+
+      <hr class="hr4" />
+      <header>
+        <div>
+          <h1 class="recentActivity">Achievments</h1>
+        </div>
+        <span class="viewScrollSection">
+          <p class="viewAll">View All</p>
+          <span>
+      </header>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/feb15k.png"
+            alt="ChallengeBadge"
+          />
+          <p>February Weekly Challenge</p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/feb10k.png"
+            alt="ChallengeBadge"
+          />
+          <p>February Weekly Challenge</p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/march75k.png"
+            alt="ChallengeBadge"
+          />
+          <p>March Weekly Challenge</p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/march100k.png"
+            alt="ChallengeBadge"
+          />
+          <p>
+            March Weekly <br />
+            Challenge
+          </p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/feb15k.png"
+            alt="ChallengeBadge"
+          />
+          <p>February Weekly Challenge</p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/march15k.png"
+            alt="ChallengeBadge"
+          />
+          <p>February Weekly Challenge</p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/jan10k.png"
+            alt="ChallengeBadge"
+          />
+          <p>March Weekly Challenge</p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+        <div class="grid-item">
+          <img
+            class="gridImage"
+            src="challenges/jan50k.png"
+            alt="ChallengeBadge"
+          />
+          <p>
+            March Weekly <br />
+            Challenge
+          </p>
+          <p class="gridBottomText">Run 10km this week.</p>
+          <p class="gridBottomText">1 day left</p>
+        </div>
+      </div>
+
+      <hr class="hr3" />
+      <header>
+        <div>
+          <h1 class="recentActivity">Run Level</h1>
+        </div>
+      </header>
+<span class="bottomImages">
+      <img class="bottomImage" src="./Images/hero4.png" alt="bottomImage">
+    </span>
 
 
       
-      </div>
 
 
 
-          <!--FOOTER---------------------------------->
+    </div>
+    <!--FOOTER---------------------------------->
     <footer>
       <div class="footer-lists">
         <ul>
@@ -134,6 +367,8 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script src="script.js"></script>
+    <script src="activity.js"></script>
   </body>
 </html>
