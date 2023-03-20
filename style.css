@@ -5,7 +5,6 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     "Poppins", Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: #f8f8f8;
-  overflow-x: hidden;
 }
 
 a:link {
@@ -66,7 +65,19 @@ a:active {
   align-items: center;
   padding-top: 2.5vh;
   padding-bottom: 2.5vh;
+  padding-left: 3.5vw;
+  padding-right: 3.5vw;
 }
+
+.navbar2 {
+  height: 3vh;
+  position: fixed;
+  background-color: #f8f8f8;
+  width: 92vw;
+  z-index: 100;
+  top: 0px;
+}
+
 
 #mainPadding {
   padding-left: 3.5vw;
@@ -127,6 +138,18 @@ a:active {
 .navBtnsStyle:hover {
   background-color:  rgb(205, 255, 40);
 }
+
+.nav--hidden {
+  position: absolute !important;
+  top: -999px !important;
+  left: -999px !important;
+}
+
+.hiddenSpace {
+  height: 10.5vh;
+}
+
+
 
 /*--------------------------------------FRONTPAGE*/
 

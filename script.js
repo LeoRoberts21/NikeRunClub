@@ -1,3 +1,5 @@
+"use strict";
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,
@@ -41,13 +43,12 @@ var swiper = new Swiper(".mySwiper3", {
   },
 });
 
-
 // ----------------------------------------HOVER
 
-let homeBtn = document.querySelector(".homeBtn")
-let plansBtn = document.querySelector(".plansBtn")
-let clubBtn = document.querySelector(".clubBtn")
-let activityBtn = document.querySelector(".activityBtn")
+let homeBtn = document.querySelector(".homeBtn");
+let plansBtn = document.querySelector(".plansBtn");
+let clubBtn = document.querySelector(".clubBtn");
+let activityBtn = document.querySelector(".activityBtn");
 
 const homeHover = function () {
   homeBtn.classList.add("green");
@@ -77,7 +78,6 @@ const activityHover = function () {
   activityBtn.classList.add("green");
 };
 
-
 homeBtn.addEventListener("mouseover", homeHover);
 plansBtn.addEventListener("mouseover", plansHover);
 clubBtn.addEventListener("mouseover", clubHover);
@@ -88,42 +88,26 @@ plansBtn.addEventListener("mouseleave", homeHover);
 clubBtn.addEventListener("mouseleave", homeHover);
 activityBtn.addEventListener("mouseleave", homeHover);
 
+/*--------------------NAVBAR---------------*/
+const hiddenSpace = document.querySelector(".hiddenSpace");
 
+const nav = document.querySelector(".mainNavBar");
+let lastScrollY = window.scrollY;
 
-// ----------------------------PROJECT-SWITCH------------
+window.addEventListener("scroll", () => {
+  if (lastScrollY < window.scrollY && lastScrollY > 0.1) {
+    nav.classList.add("nav--hidden", "navbar2");
+    hiddenSpace.classList.remove("nav--hidden");
+  } else {
+    nav.classList.remove("nav--hidden");
+  }
 
-const leaderboardButton = document.querySelector(".leaderboardButton");
-const challengeButton = document.querySelector(".challengeButton");
+  lastScrollY = window.scrollY;
 
-const leaderboardModal = document.querySelector(".leaderboardModal");
-const challengeModal = document.querySelector(".challengeModal");
+  if (window.scrollY < 0.5) {
+    nav.classList.remove("navbar2");
+    hiddenSpace.classList.add("nav--hidden");
+  }
+});
 
-const showLeaderboard = function () {
-  challengeModal.classList.add("hidden");
-  leaderboardModal.classList.remove("hidden");
-};
-
-const showChallenge = function () {
-  leaderboardModal.classList.add("hidden");
-  challengeModal.classList.remove("hidden");
-};
-
-leaderboardButton.addEventListener("click", showLeaderboard);
-
-challengeButton.addEventListener("click", showChallenge);
-
-/*--------------------BUTTON-COLOUR-CHANGE---------------*/
-
-const challengeFunc = function () {
-  leaderboardButton.classList.add("btnOpacity");
-  challengeButton.classList.remove("btnOpacity");
-};
-
-const leaderboardFunc = function () {
-  leaderboardButton.classList.remove("btnOpacity");
-  challengeButton.classList.add("btnOpacity");
-};
-
-
-leaderboardButton.addEventListener("click", leaderboardFunc);
-challengeButton.addEventListener("click", challengeFunc);
+console.log(nav);
