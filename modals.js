@@ -1,7 +1,7 @@
 "use strict";
 
 //MODAL 1, ALL ACTIVITY, ACTIVITY PAGE
-
+const body = document.querySelector(".body");
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
@@ -10,11 +10,13 @@ const btnsOpenModal = document.querySelectorAll(".show-modal");
 const openModal = function () {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
+  body.classList.add("overflow-lock");
 };
 
 const closeModal = function () {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
+  body.classList.remove("overflow-lock");
 };
 
 for (let i = 0; i < btnsOpenModal.length; i++)
@@ -40,11 +42,13 @@ const btnsOpenModalTwo = document.querySelectorAll(".show-modal-two");
 const openModalTwo = function () {
   modalTwo.classList.remove("hidden");
   overlay.classList.remove("hidden");
+  body.classList.add("overflow-lock");
 };
 
 const closeModalTwo = function () {
   modalTwo.classList.add("hidden");
   overlay.classList.add("hidden");
+  body.classList.remove("overflow-lock");
 };
 
 for (let i = 0; i < btnsOpenModalTwo.length; i++)

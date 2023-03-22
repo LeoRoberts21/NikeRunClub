@@ -493,9 +493,21 @@ body {
   position: fixed;
   overflow: scroll;
   overflow-x: hidden;
+  border-radius: 40px;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.modalTwo::-webkit-scrollbar {
+  display: none;
 }
 
 
+.modalThree::-webkit-scrollbar {
+  display: none;
+}
 
 .overlay {
   position: absolute;
@@ -509,7 +521,10 @@ body {
   position: fixed;
 }
 
-
+.overflow-lock {
+  overflow-y: hidden;
+  margin-right: 1vw;
+}
 
 
 /*-------FRIENDS MODAL--------------*/
@@ -519,6 +534,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  overflow-y: hidden;
 }
 
 .pfpModalImg {

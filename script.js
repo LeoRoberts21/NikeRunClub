@@ -123,11 +123,13 @@ const btnsOpenModalThree = document.querySelectorAll(".show-modal-three");
 const openModalThree = function () {
   modalThree.classList.remove("hidden");
   overlayFix.classList.remove("hidden");
+  body.classList.add("overflow-lock");
 };
 
 const closeModalThree = function () {
   modalThree.classList.add("hidden");
   overlayFix.classList.add("hidden");
+  body.classList.remove("overflow-lock");
 };
 
 for (let i = 0; i < btnsOpenModalThree.length; i++)
