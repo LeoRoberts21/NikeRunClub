@@ -112,3 +112,34 @@ window.addEventListener("scroll", () => {
 
 console.log(nav);
 
+//MODAL 3, PFP, ALL PAGES
+
+
+const overlayFix = document.querySelector(".overlay");
+const modalThree = document.querySelector(".modalThree");
+const btnCloseModalThree = document.querySelector(".close-modal-three");
+const btnsOpenModalThree = document.querySelectorAll(".show-modal-three");
+
+const openModalThree = function () {
+  modalThree.classList.remove("hidden");
+  overlayFix.classList.remove("hidden");
+};
+
+const closeModalThree = function () {
+  modalThree.classList.add("hidden");
+  overlayFix.classList.add("hidden");
+};
+
+for (let i = 0; i < btnsOpenModalThree.length; i++)
+  btnsOpenModalThree[i].addEventListener("click", openModalThree);
+
+btnCloseModalThree.addEventListener("click", closeModalThree);
+overlayFix.addEventListener("click", closeModalThree);
+
+document.addEventListener("keydown", function (e) {
+  // console.log(e.key);
+
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModalThree();
+  }
+});

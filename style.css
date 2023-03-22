@@ -556,6 +556,8 @@ align-self: center;
 border: 1px black solid;
 padding: 0.5vw;
 background-color: #f8f8f8;
+border-radius: 15px;
+padding-left: 0.75vw;
 }
 
 .divider {
@@ -563,4 +565,8 @@ background-color: #f8f8f8;
   width: 100%;
   background-color: #1f1f29;
   margin-top: 3vw;
+}
+
+.hidden {
+  display: none;
 }
