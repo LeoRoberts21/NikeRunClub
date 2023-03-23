@@ -66,5 +66,3 @@ document.addEventListener("keydown", function (e) {
 });
 
 
-//MODAL 3, PFP, ALL PAGES
-

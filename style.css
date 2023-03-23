@@ -460,7 +460,7 @@ body {
 
 /*---------MODAL----------*/
 
-.close-modal, .close-modal-two, .close-modal-three, .close-modal-four, .close-modal-five, .close-modal-six, .close-modal-seven {
+.close-modal, .close-modal-two, .close-modal-three, .close-modal-Four, .close-modal-five, .close-modal-six, .close-modal-seven {
   position: absolute;
   top: 0vh;
   right: 1.5vw;
@@ -504,8 +504,11 @@ body {
   display: none;
 }
 
-
 .modalThree::-webkit-scrollbar {
+  display: none;
+}
+
+.modalFour::-webkit-scrollbar {
   display: none;
 }
 
@@ -525,6 +528,7 @@ body {
   overflow-y: hidden;
   margin-right: 1vw;
 }
+
 
 
 /*-------FRIENDS MODAL--------------*/

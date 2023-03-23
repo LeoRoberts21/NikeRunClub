@@ -145,3 +145,36 @@ document.addEventListener("keydown", function (e) {
     closeModalThree();
   }
 });
+
+
+//MODAL 4, COMMUNITY ACTIVITY, HOME
+const modalFour = document.querySelector(".modalFour");
+const btnCloseModalFour = document.querySelector(".close-modal-Four");
+const btnsOpenModalFour = document.querySelectorAll(".show-modal-Four");
+
+const openModalFour = function () {
+  modalFour.classList.remove("hidden");
+  overlayFix.classList.remove("hidden");
+  body.classList.add("overflow-lock");
+};
+
+const closeModalFour = function () {
+  modalFour.classList.add("hidden");
+  overlayFix.classList.add("hidden");
+  body.classList.remove("overflow-lock");
+};
+
+for (let i = 0; i < btnsOpenModalFour.length; i++)
+  btnsOpenModalFour[i].addEventListener("click", openModalFour);
+
+btnCloseModalFour.addEventListener("click", closeModalFour);
+overlayFix.addEventListener("click", closeModalFour);
+
+document.addEventListener("keydown", function (e) {
+  // console.log(e.key);
+
+  if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+    closeModalFour();
+  }
+});
+
