@@ -78,7 +78,6 @@ a:active {
   top: 0px;
 }
 
-
 #mainPadding {
   padding-left: 3.5vw;
   padding-right: 3.5vw;
@@ -136,7 +135,7 @@ a:active {
 }
 
 .navBtnsStyle:hover {
-  background-color:  rgb(205, 255, 40);
+  background-color: rgb(205, 255, 40);
 }
 
 .nav--hidden {
@@ -148,8 +147,6 @@ a:active {
 .hiddenSpace {
   height: 10.5vh;
 }
-
-
 
 /*--------------------------------------FRONTPAGE*/
 
@@ -304,8 +301,6 @@ h2 {
   color: white;
 }
 
-
-
 /*--------------------------------------BOTTOMSEC*/
 
 button {
@@ -422,9 +417,6 @@ body {
   height: 53vh;
 }
 
-
-
-
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -441,7 +433,6 @@ body {
   object-fit: cover;
 }
 
-
 .swiper {
   margin-left: auto;
   margin-right: auto;
@@ -457,10 +448,15 @@ body {
   padding-bottom: 8vh;
 }
 
-
 /*---------MODAL----------*/
 
-.close-modal, .close-modal-two, .close-modal-three, .close-modal-Four, .close-modal-five, .close-modal-six, .close-modal-seven {
+.close-modal,
+.close-modal-two,
+.close-modal-three,
+.close-modal-Four,
+.close-modal-five,
+.close-modal-six,
+.close-modal-seven {
   position: absolute;
   top: 0vh;
   right: 1.5vw;
@@ -471,21 +467,26 @@ body {
   background: none;
 }
 
-
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
 .hidden {
   display: none;
 }
 
-.modal, .modalTwo, .modalThree, .modalFour, .modalFive, .modalSix, .modalSeven {
+.modal,
+.modalTwo,
+.modalThree,
+.modalFour,
+.modalFive,
+.modalSix,
+.modalSeven {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
   max-height: 50vh;
-  background-color:#f8f8f8;
+  background-color: #f8f8f8;
   padding: 6rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
@@ -512,6 +513,10 @@ body {
   display: none;
 }
 
+.modalFive::-webkit-scrollbar {
+  display: none;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -528,8 +533,6 @@ body {
   overflow-y: hidden;
   margin-right: 1vw;
 }
-
-
 
 /*-------FRIENDS MODAL--------------*/
 
@@ -552,9 +555,9 @@ body {
 }
 
 .friend-list {
-   display: flex;
-   gap: 5vw;
-   padding-top: 5vh;
+  display: flex;
+  gap: 5vw;
+  padding-top: 5vh;
 }
 
 .friend-list img {
@@ -572,12 +575,12 @@ body {
 }
 
 .friends-titles input {
-align-self: center;
-border: 1px black solid;
-padding: 0.5vw;
-background-color: #f8f8f8;
-border-radius: 15px;
-padding-left: 0.75vw;
+  align-self: center;
+  border: 1px black solid;
+  padding: 0.5vw;
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  padding-left: 0.75vw;
 }
 
 .divider {
@@ -589,4 +592,36 @@ padding-left: 0.75vw;
 
 .hidden {
   display: none;
+}
+
+/*-------COMMUNITY MODAL--------------*/
+
+.map-row {
+  display: flex;
+gap: 3vw;
+}
+
+.modal-maps {
+  padding-top: 5vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  
+}
+
+.modal-map-pic {
+  width: 17.5vw;
+  border-radius: 15px;
+
+
+}
+
+.map-text {
+  padding: 1vw;
+  width: 86%;
+  border-radius: 15px;
+  background-color: #cbcbcb28;
+text-align: center;
 }
