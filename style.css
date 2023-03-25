@@ -453,10 +453,7 @@ body {
 .close-modal,
 .close-modal-two,
 .close-modal-three,
-.close-modal-Four,
-.close-modal-five,
-.close-modal-six,
-.close-modal-seven {
+.close-modal-Four {
   position: absolute;
   top: 0vh;
   right: 1.5vw;
@@ -476,10 +473,7 @@ body {
 .modal,
 .modalTwo,
 .modalThree,
-.modalFour,
-.modalFive,
-.modalSix,
-.modalSeven {
+.modalFour {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -513,9 +507,6 @@ body {
   display: none;
 }
 
-.modalFive::-webkit-scrollbar {
-  display: none;
-}
 
 .overlay {
   position: absolute;
