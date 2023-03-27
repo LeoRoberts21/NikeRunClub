@@ -87,21 +87,24 @@ a:active {
   display: flex;
   gap: 0px;
   font-size: 0.9rem;
-  flex: 1;
+  flex: 0.5;
+  background-color: #dedede63;
+  padding:0.25vw;
+  border-radius: 80px;
 }
 
 .navBtnsStyle {
   display: flex;
   gap: 50px;
-  border: 1px solid black;
+border-radius: 80px;
   width: 7vw;
-  height: 3.25vh;
+  height: 3.5vh;
   margin: 0px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
-
+/* 
 .curvedEdgeLeft {
   border-top-left-radius: 80px;
   border-bottom-left-radius: 80px;
@@ -110,7 +113,7 @@ a:active {
 .curvedEdgeRight {
   border-top-right-radius: 80px;
   border-bottom-right-radius: 80px;
-}
+} */
 
 .nikeLogoSizing {
   flex: 1;
@@ -180,7 +183,6 @@ h1 {
   margin-top: 5vh;
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 .scrollBar {
