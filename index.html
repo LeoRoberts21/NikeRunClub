@@ -1,374 +1,448 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NRC</title>
-    <!--SWIPER-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="/Images/swoosh.jpeg" />
-    <style>
-      body {
-        overflow-x: hidden;
-      }
-    </style>
-  </head>
 
-  <body class="body">
-    <!--VERY TOP BAR------------------------------->
-    <section class="nikeNav">
-      <span class="topLogos">
-        <img class="jordCon" src="Images/jordanJumpman.png" alt="Jordan" />
-        <img class="jordCon conLeft" src="Images/converse.png" alt="Converse" />
-      </span>
-      <ul class="nikeNavList">
-        <li>Find a Store</li>
-        <hr class="hr1" />
-        <li>Help</li>
-        <hr class="hr1" />
-        <li>Join Us</li>
-        <hr class="hr1" />
-        <li>Sign in</li>
-      </ul>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NRC</title>
+  <!--SWIPER-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="/Images/swoosh.jpeg" />
+  <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+  </style>
+</head>
 
-    <!--NAV BAR------------------------------------->
-    <section class="mainNavBar">
-      <nav class="nikeLogoSizing">
-        <img class="nikeLogo" src="Images/NRC 1 1.png" alt="NIKE LOGO" />
-      </nav>
-      <span class="navBtns">
-        <a href="index.html">
-          <nav class="navBtnsStyle curvedEdgeLeft green homeBtn">
-            <p>Home</p>
-          </nav>
-        </a>
-        <a href="indexPlans.html">
-          <nav class="navBtnsStyle plansBtn">
-            <p>Plans</p>
-          </nav>
-        </a>
-        <a href="indexClub.html">
-          <nav class="navBtnsStyle clubBtn">
-            <p>Club</p>
-          </nav>
-        </a>
-        <a href="indexActivity.html">
-          <nav class="navBtnsStyle curvedEdgeRight activityBtn">
-            <p>Activity</p>
-          </nav>
-        </a>
-      </span>
-      <nav class="pfpSizing ">
-        <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-      </nav>
-      <div class="modalThree hidden">
-        <button class="close-modal-three">&times;</button>
-        <img class="pfp show-modal-three pfpModalImg" style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-        <h2>LEO ROBERTS</h2>
-        <hr class="divider">
+<body class="body">
+  <!--VERY TOP BAR------------------------------->
+  <section class="nikeNav">
+    <span class="topLogos">
+      <a href="https://www.nike.com/gb/jordan"><img class="jordCon" src="Images/jordanJumpman.png" alt="Jordan" /></a> 
+      <a href="https://www.converse.com/gb"><img class="jordCon conLeft" src="Images/converse.png" alt="Converse" /></a> 
+    </span>
+    <ul class="nikeNavList">
+      <a class="topLinks" href="https://www.nike.com/gb/retail"><li>Find a Store</li></a>
+      <hr class="hr1" />
+      <a class="topLinks" href="https://www.nike.com/gb/help"><li>Help</li></a>
+      <hr class="hr1" />
+      <a class="topLinks" href="https://www.nike.com/gb/membership"><li>Join Us</li></a>
+      <hr class="hr1" />
+      <a class="topLinks" href="https://accounts.nike.com/lookup?client_id=4fd2d5e7db76e0f85a6bb56721bd51df&redirect_uri=https://www.nike.com/auth/login&response_type=code&scope=openid%20nike.digital%20profile%20email%20phone%20flow%20country&state=e9e12141063e4f27853cc35dc41969b0&code_challenge=bNxYoQGjSrFiPA5Y9u_S4s_GWmfU_3yEQnSY3MFP9Jw&code_challenge_method=S256"><li>Sign in</li></a>
+    </ul>
+  </section>
+
+  <!--NAV BAR------------------------------------->
+  <section class="mainNavBar">
+    <nav class="nikeLogoSizing">
+      <a href="index.html"><img class="nikeLogo" src="Images/NRC 1 1.png" alt="NIKE LOGO" /></a>
+    </nav>
+    <span class="navBtns">
+      <a href="index.html">
+        <nav class="navBtnsStyle curvedEdgeLeft green homeBtn">
+          <p>Home</p>
+        </nav>
+      </a>
+      <a href="indexPlans.html">
+        <nav class="navBtnsStyle plansBtn">
+          <p>Plans</p>
+        </nav>
+      </a>
+      <a href="indexClub.html">
+        <nav class="navBtnsStyle clubBtn">
+          <p>Club</p>
+        </nav>
+      </a>
+      <a href="indexActivity.html">
+        <nav class="navBtnsStyle curvedEdgeRight activityBtn">
+          <p>Activity</p>
+        </nav>
+      </a>
+    </span>
+    <nav class="pfpSizing">
+      <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+    </nav>
+    <div class="modalThree hidden">
+      <button class="close-modal-three">&times;</button>
+      <img class="pfp show-modal-three pfpModalImg" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+      <h2>LEO ROBERTS</h2>
+      <hr class="divider" />
       <span class="friends">
         <span class="friends-titles">
-        <p>FRIENDS</p>
-        <input type="text" placeholder="Add friends">
-      </span>
+          <p>FRIENDS</p>
+          <input type="text" placeholder="Add friends" />
+        </span>
         <span class="friend-list">
           <span>
-          <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-          <p>Friend1</p>
-        </span>
-        <span>
-          <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-          <p>Friend1</p>
-        </span>
-        <span>
-          <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-          <p>Friend1</p>
-        </span>
-        <span>
-          <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-          <p>Friend1</p>
-        </span>
-        <span>
-          <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-          <p>Friend1</p>
-        </span>
-        <span>
-          <img class="pfp show-modal-three " style="cursor: pointer;" src="Images/pfp.png" alt="ProfilePic" />
-          <p>Friend1</p>
-        </span>
-        </span>
-      </span>
-      </div>
-    </section>
-
-    <div class="hiddenSpace nav--hidden"></div>
-
-    <div id="mainPadding">
-      <hr class="hr2" />
-
-      <!--FRONT PAGE-------------------------------->
-      <section>
-        <header>
-          <div>
-            <h1>What's New</h1>
-            <p class="subHead" style="padding-bottom: 1vw;">Check out the latest from Nike Running.</p>
-          </div>
-        </header>
-        <div class="mySwiper3">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img class="heroImage" src="./Images/hero4.png" alt="HeroImage" />
-            </div>
-            <div class="swiper-slide">
-              <img class="heroImage" src="./Images/hero3.png" alt="HeroImage" />
-            </div>
-            <div class="swiper-slide">
-              <img class="heroImage" src="./Images/hero2.png" alt="HeroImage" />
-            </div>
-            <div class="swiper-slide">
-              <img class="heroImage" src="./Images/hero1.png" alt="HeroImage" />
-            </div>
-          </div>
-        </div>
-        <div class="scrollBar"></div>
-      </section>
-    </div>
-    <!--PADDING END-->
-    <!--COMMUNITY SECTION--------------------------->
-    <section>
-      <div class="scroll">
-        <h2>Community Activity</h2>
-        <span class="viewScrollSection">
-          <p class="viewAll show-modal-Four" style="cursor: pointer;">View All</p>
+            <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+            <p>Friend1</p>
+          </span>
           <span>
-            <button class="scrollBtn backBtn">←</button>
-            <button class="scrollBtn activeBtn">→</button>
+            <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+            <p>Friend1</p>
+          </span>
+          <span>
+            <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+            <p>Friend1</p>
+          </span>
+          <span>
+            <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+            <p>Friend1</p>
+          </span>
+          <span>
+            <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+            <p>Friend1</p>
+          </span>
+          <span>
+            <img class="pfp show-modal-three" style="cursor: pointer" src="Images/pfp.png" alt="ProfilePic" />
+            <p>Friend1</p>
           </span>
         </span>
-      </div>
-
-      <div class="modalFour hidden">
-        <button class="close-modal-Four">&times;</button>
-        <h2>Community Activity</h2>
-        <span class="map-row">
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
       </span>
-      <span class="map-row">
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-      </span>
-      <span class="map-row">
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-      </span>
-              <span class="map-row">
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-        <div class="modal-maps">
-          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
-          <p class="map-text">Leo Roberts - 5K</p>
-        </div>
-      </span>
-      </div>
-
-
-
-
-      <div class="scrollSection">
-        <!--Scroll section-->
-        <div class="swiper mySwiper2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide scrollPic comBox">
-              <img src="Images/map1.png" alt="coachingPic" />
-              <p>Leo Roberts - 5K</p>
-            </div>
-            <div class="swiper-slide scrollPic comBox">
-              <img src="Images/map6.png" alt="coachingPic" />
-              <p>Leo Roberts - 5K</p>
-            </div>
-            <div class="swiper-slide scrollPic comBox">
-              <img src="Images/map3.png" alt="coachingPic" />
-              <p>Leo Roberts - 5K</p>
-            </div>
-            <div class="swiper-slide scrollPic comBox">
-              <img src="Images/map4.png" alt="coachingPic" />
-              <p>Leo Roberts - 5K</p>
-            </div>
-            <div class="swiper-slide scrollPic comBox">
-              <img src="Images/map6.png" alt="coachingPic" />
-              <p>Leo Roberts - 5K</p>
-            </div>
-            <div class="swiper-slide scrollPic comBox">
-              <img src="Images/map5.png" alt="coachingPic" />
-              <p>Leo Roberts - 5K</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--COACHING AND WELLNESS SECTION------------------------->
-
-    <section>
-      <div class="scroll coachSec">
-        <h2 class="coachWhite">Coaching and Wellness</h2>
-        <span class="viewScrollSection">
-          <a href="https://www.nike.com/gb/ntc-app/expert-tips?#content-grid-f44c1f65-daa1-4990-ac25-368b4079e1ba"><p class="viewAll coachWhite">View All</p></a>
-          <span>
-            <button class="scrollBtn btnReverse">←</button>
-            <button class="scrollBtn activeBtnReverse">→</button>
-          </span>
-        </span>
-      </div>
-      <div class="coachBack">
-        <!--Scroll section-->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <a href="https://www.nike.com/gb/a/why-is-sleep-important" class="swiper-slide scrollPic">
-              <img src="Images/wellness5.png" alt="coachingPic" />
-            </a>
-            <a href="https://www.nike.com/gb/a/what-is-rucking" class="swiper-slide scrollPic">
-              <img src="Images/wellness2.png" alt="coachingPic" />
-            </a>
-            <a href="https://www.nike.com/gb/a/how-to-break-through-mental-blocks" class="swiper-slide scrollPic">
-              <img src="Images/wellness1.png" alt="coachingPic" />
-            </a>
-            <a href="https://www.nike.com/gb/a/rest-day-workout" class="swiper-slide scrollPic">
-              <img src="Images/wellness3.png" alt="coachingPic" />
-            </a>
-            <a href="https://www.nike.com/gb/a/delayed-onset-muscle-soreness" class="swiper-slide scrollPic">
-              <img src="Images/wellness4.png" alt="coachingPic" />
-            </a>
-            <a href="https://www.nike.com/gb/a/how-many-rest-days-a-week" class="swiper-slide scrollPic">
-              <img src="Images/wellness6.png" alt="coachingPic" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div id="mainPadding">
-      <!--PADDING START AGAIN-->
-      <!--BOTTOM SECTION----------------------------->
-
-      <section class="bottom-link-section">
-        <img class="bottomImage" src="./Images/hero1.png" alt="bottomImage" />
-        <h2>Nike Run Club</h2>
-        <p class="bottomText">
-          The best coaches and athletes, like Eliud Kipchoge, Shalane Flanagan
-          and Mo Farah. Our Guided Runs give you the guidance you need to listen
-          to your body, adapt to your training plan and become your own best
-          coach.
-        </p>
-        <button href="">Download</button>
-      </section>
     </div>
-    <!--PADDING END-->
-    <div class="overlay hidden"></div>
-    <!--FOOTER---------------------------------->
-    <footer>
-      <div class="footer-lists">
-        <ul>
-          <li class="footerTitle">GIFT CARDS</li>
-          <li class="footerTitle">FIND A STORE</li>
-          <li class="footerTitle">NIKE JOURNAL</li>
-          <li class="footerTitle">BECOME A MEMBER</li>
-          <li class="footerTitle">STUDENT DISCOUNT</li>
-          <li class="footerTitle">FEEDBACK</li>
-          <li class="footerTitle">PROMO CODES</li>
-        </ul>
-        <ul>
-          <li class="footerTitle">GET HELP</li>
-          <li class="footerBody">Order Status</li>
-          <li class="footerBody">Shipping and Delivery</li>
-          <li class="footerBody">Returns</li>
-          <li class="footerBody">Payment Options</li>
-          <li class="footerBody">Contact Us</li>
-          <li class="footerBody">Nike Promo Codes Help</li>
-        </ul>
+  </section>
 
-        <ul>
-          <li class="footerTitle">ABOUT NIKE</li>
-          <li class="footerBody">News</li>
-          <li class="footerBody">Careers</li>
-          <li class="footerBody">Investors</li>
-          <li class="footerBody">Sustainability</li>
-          <li class="footerBody">UK Tax</li>
-          <li class="footerBody">UK Pension Statement</li>
-          <li class="footerBody">UK Pension SIP</li>
-        </ul>
+  <div class="hiddenSpace nav--hidden"></div>
 
-        <ul>
-          <li class="footerTitle">JOIN US</li>
-          <li class="footerBody">Nike App</li>
-          <li class="footerBody">Nike Run Club</li>
-          <li class="footerBody">Nike Training App</li>
-          <li class="footerBody">SNKRS</li>
-        </ul>
-      </div>
+  <div id="mainPadding">
+    <hr class="hr2" />
 
-      <div class="footerBottom">
-        <div class="footerBottomLeft">
-          <p>United Kingdom</p>
-          <p>© 2023 Nike Inc, All Rights Reserved</p>
-        </div>
-
-        <div class="footerBottomRight">
-          <p>
-            Guides &nbsp;&nbsp;&nbsp; Terms of Use &nbsp;&nbsp;&nbsp; Terms of
-            Sale &nbsp;&nbsp;&nbsp; Company Details &nbsp;&nbsp;&nbsp; UK Modern
-            Slavery Act Disclosure &nbsp;&nbsp;&nbsp;
-            <br />
-            Privacy & Cookie Policy &nbsp;&nbsp;&nbsp; Cookie Settings
+    <!--FRONT PAGE-------------------------------->
+    <section>
+      <header>
+        <div>
+          <h1>What's New</h1>
+          <p class="subHead" style="padding-bottom: 1vw">
+            Check out the latest from Nike Running.
           </p>
         </div>
+      </header>
+      <div class="mySwiper3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="heroImage" src="./Images/hero4.png" alt="HeroImage" />
+          </div>
+          <div class="swiper-slide">
+            <img class="heroImage" src="./Images/hero3.png" alt="HeroImage" />
+          </div>
+          <div class="swiper-slide">
+            <img class="heroImage" src="./Images/hero2.png" alt="HeroImage" />
+          </div>
+          <div class="swiper-slide">
+            <img class="heroImage" src="./Images/hero1.png" alt="HeroImage" />
+          </div>
+        </div>
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
-    <script src="modals.js"></script>
-  </body>
+      <div class="scrollBar"></div>
+    </section>
+  </div>
+  <!--PADDING END-->
+  <!--COMMUNITY SECTION--------------------------->
+  <section>
+    <div class="scroll">
+      <h2>Community Activity</h2>
+      <span class="viewScrollSection">
+        <p class="viewAll show-modal-Four" style="cursor: pointer">
+          View All
+        </p>
+        <span>
+          <button class="scrollBtn backBtn">←</button>
+          <button class="scrollBtn activeBtn">→</button>
+        </span>
+      </span>
+    </div>
+
+    <div class="modalFour hidden">
+      <button class="close-modal-Four">&times;</button>
+      <h2>Community Activity</h2>
+      <span class="map-row">
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+      </span>
+      <span class="map-row">
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+      </span>
+      <span class="map-row">
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+      </span>
+      <span class="map-row">
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+        <div class="modal-maps">
+          <img class="modal-map-pic" src="Images/map1.png" alt="coachingPic" />
+          <p class="map-text">Leo Roberts - 5K</p>
+        </div>
+      </span>
+    </div>
+
+    <div class="scrollSection">
+      <!--Scroll section-->
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide scrollPic comBox">
+            <img src="Images/map1.png" alt="coachingPic" />
+            <p>Leo Roberts - 5K</p>
+          </div>
+          <div class="swiper-slide scrollPic comBox">
+            <img src="Images/map6.png" alt="coachingPic" />
+            <p>Leo Roberts - 5K</p>
+          </div>
+          <div class="swiper-slide scrollPic comBox">
+            <img src="Images/map3.png" alt="coachingPic" />
+            <p>Leo Roberts - 5K</p>
+          </div>
+          <div class="swiper-slide scrollPic comBox">
+            <img src="Images/map4.png" alt="coachingPic" />
+            <p>Leo Roberts - 5K</p>
+          </div>
+          <div class="swiper-slide scrollPic comBox">
+            <img src="Images/map6.png" alt="coachingPic" />
+            <p>Leo Roberts - 5K</p>
+          </div>
+          <div class="swiper-slide scrollPic comBox">
+            <img src="Images/map5.png" alt="coachingPic" />
+            <p>Leo Roberts - 5K</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--COACHING AND WELLNESS SECTION------------------------->
+
+  <section>
+    <div class="scroll coachSec">
+      <h2 class="coachWhite">Coaching and Wellness</h2>
+      <span class="viewScrollSection">
+        <a href="https://www.nike.com/gb/ntc-app/expert-tips?#content-grid-f44c1f65-daa1-4990-ac25-368b4079e1ba">
+          <p class="viewAll coachWhite">View All</p>
+        </a>
+        <span>
+          <button class="scrollBtn btnReverse">←</button>
+          <button class="scrollBtn activeBtnReverse">→</button>
+        </span>
+      </span>
+    </div>
+    <div class="coachBack">
+      <!--Scroll section-->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <a href="https://www.nike.com/gb/a/why-is-sleep-important" class="swiper-slide scrollPic">
+            <img src="Images/wellness5.png" alt="coachingPic" />
+          </a>
+          <a href="https://www.nike.com/gb/a/what-is-rucking" class="swiper-slide scrollPic">
+            <img src="Images/wellness2.png" alt="coachingPic" />
+          </a>
+          <a href="https://www.nike.com/gb/a/how-to-break-through-mental-blocks" class="swiper-slide scrollPic">
+            <img src="Images/wellness1.png" alt="coachingPic" />
+          </a>
+          <a href="https://www.nike.com/gb/a/rest-day-workout" class="swiper-slide scrollPic">
+            <img src="Images/wellness3.png" alt="coachingPic" />
+          </a>
+          <a href="https://www.nike.com/gb/a/delayed-onset-muscle-soreness" class="swiper-slide scrollPic">
+            <img src="Images/wellness4.png" alt="coachingPic" />
+          </a>
+          <a href="https://www.nike.com/gb/a/how-many-rest-days-a-week" class="swiper-slide scrollPic">
+            <img src="Images/wellness6.png" alt="coachingPic" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="mainPadding">
+    <!--PADDING START AGAIN-->
+    <!--BOTTOM SECTION----------------------------->
+
+    <section class="bottom-link-section">
+      <img class="bottomImage" src="./Images/hero1.png" alt="bottomImage" />
+      <h2>Nike Run Club</h2>
+      <p class="bottomText">
+        The best coaches and athletes, like Eliud Kipchoge, Shalane Flanagan
+        and Mo Farah. Our Guided Runs give you the guidance you need to listen
+        to your body, adapt to your training plan and become your own best
+        coach.
+      </p>
+      <button href="">Download</button>
+    </section>
+  </div>
+  <!--PADDING END-->
+  <div class="overlay hidden"></div>
+  <!--FOOTER---------------------------------->
+  <footer>
+    <div class="footer-lists">
+      <ul>
+        <a href="https://www.nike.com/gb/gift-cards">
+          <li class="footerTitle">GIFT CARDS</li>
+        </a>
+        <a href="https://www.nike.com/gb/retail/">
+          <li class="footerTitle">FIND A STORE</li>
+        </a>
+        <a href="https://www.nike.com/gb/stories">
+          <li class="footerTitle">NIKE JOURNAL</li>
+        </a>
+        <a href="https://www.nike.com/gb/membership">
+          <li class="footerTitle">BECOME A MEMBER</li>
+        </a>
+        <a href="https://www.nike.com/gb/student-discount">
+          <li class="footerTitle">STUDENT DISCOUNT</li>
+        </a>
+        <a href="https://www.nike.com/gb/promo-code">
+          <li class="footerTitle">PROMO CODES</li>
+        </a>
+      </ul>
+      <ul>
+        <a href="https://www.nike.com/gb/help">
+          <li class="footerTitle">GET HELP</li>
+        </a>
+        <a href="https://www.nike.com/gb/orders/details">
+          <li class="footerBody">Order Status</li>
+        </a>
+        <a href="https://www.nike.com/gb/help/a/shipping-delivery-eu">
+          <li class="footerBody">Shipping and Delivery</li>
+        </a>
+        <a href="https://www.nike.com/gb/help/a/returns-policy-eu">
+          <li class="footerBody">Returns</li>
+        </a>
+        <a href="https://www.nike.com/gb/help/a/payment-options-eu">
+          <li class="footerBody">Payment Options</li>
+        </a>
+        <a href="https://www.nike.com/gb/help/#contact">
+          <li class="footerBody">Contact Us</li>
+        </a>
+        <a href="https://www.nike.com/gb/help/a/promo-apply-eu">
+          <li class="footerBody">Nike Promo Codes Help</li>
+        </a>
+      </ul>
+
+      <ul>
+        <a href="https://about.nike.com/en">
+          <li class="footerTitle">ABOUT NIKE</li>
+        </a>
+        <a href="https://about.nike.com/en/newsroom">
+          <li class="footerBody">News</li>
+        </a>
+        <a href="https://jobs.nike.com">
+          <li class="footerBody">Careers</li>
+        </a>
+        <a href="https://investors.nike.com/Home/default.aspx">
+          <li class="footerBody">Investors</li>
+        </a>
+        <a href="https://www.nike.com/gb/sustainability">
+          <li class="footerBody">Sustainability</li>
+        </a>
+        <a href="https://www.nike.com/gb/help/a/uk-tax-strategy"></a>
+        <li class="footerBody">UK Tax</li></a>
+        <a
+          href="https://assets.commerce.nikecloud.com/gethelp/nike+(uk)+benefits/nike+(uk)+limited+retirement+benefits+scheme.pdf"></a>
+        <li class="footerBody">UK Pension Statement</li></a>
+        <a
+          href="https://www.nike.com/pdf/limited-retirement-benefits-scheme-statement-investment-principles-sip-en-gb.pdf">
+          <li class="footerBody">UK Pension SIP</li>
+        </a>
+      </ul>
+
+      <ul>
+        <a href="https://www.nike.com/gb/membership">
+          <li class="footerTitle">JOIN US</li>
+        </a>
+        <a href="https://www.nike.com/gb/nike-app">
+          <li class="footerBody">Nike App</li>
+        </a>
+        <a href="https://www.nike.com/gb/ntc-app">
+          <li class="footerBody">Nike Training Club</li>
+        </a>
+        <a href="https://www.nike.com/gb/launch"></a>
+        <li class="footerBody">SNKRS</li></a>
+      </ul>
+    </div>
+
+    <div class="footerBottom">
+      <div class="footerBottomLeft">
+        <p>United Kingdom</p>
+        <p>© 2023 Nike Inc, All Rights Reserved</p>
+      </div>
+
+      <div class="footerBottomRight">
+        <span>
+          <a
+            href="https://agreementservice.svs.nike.com/gb/en_gb/rest/agreement?agreementType=termsOfUse&uxId=com.nike&country=GB&language=en&requestType=redirect">
+            <p class="lesserInfo">Terms of Use </p>
+          </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
+          <a href="https://www.nike.com/gb/nike-app">
+            <p class="lesserInfo">Terms of Sale </p>
+          </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
+          <a href="https://www.nike.com/gb/nike-app">
+            <p class="lesserInfo">Company Details </p>
+          </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
+          <a href="https://www.nike.com/gb/nike-app">
+            <p class="lesserInfo">UK Modern Slavery Act </p>
+          </a>
+        </span>
+
+        <span>
+          <a href="https://www.nike.com/gb/nike-app">
+            <p class="lesserInfo">Privacy & Cookie Policy </p>
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;
+
+          <a href="https://www.nike.com/gb/nike-app">
+            <p class="lesserInfo">Cookie Settings </p>
+          </a>
+        </span>
+
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script src="modals.js"></script>
+</body>
+
 </html>

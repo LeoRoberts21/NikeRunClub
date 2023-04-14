@@ -5,6 +5,7 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     "Poppins", Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: #f8f8f8;
+  
 }
 
 a:link {
@@ -39,6 +40,14 @@ a:active {
   gap: 1vw;
   list-style: none;
   font-size: 0.75rem;
+}
+
+.topLinks:hover {
+  opacity: 40%;
+}
+
+.jordCon:hover {
+  opacity: 40%;
 }
 
 .jordCon {
@@ -138,7 +147,7 @@ border-radius: 80px;
 }
 
 .navBtnsStyle:hover {
-  background-color: rgb(205, 255, 40);
+  background-color:  rgba(255, 138, 49, 0.965);
 }
 
 .nav--hidden {
@@ -201,7 +210,7 @@ h1 {
 }
 
 .green {
-  background-color: rgb(205, 255, 40);
+  background-color:  rgba(255, 138, 49, 0.965);
 }
 
 /*--------------------------------------COMMUNITY*/
@@ -342,6 +351,8 @@ button {
 footer {
   margin-top: 15vh;
   background-color: rgb(22, 22, 22);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    "Poppins", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .footer-lists {
@@ -349,7 +360,7 @@ footer {
   display: flex;
   list-style: none;
   font-size: 0.75rem;
-  gap: 3vw;
+  gap: 6vw;
 }
 
 .footerTitle {
@@ -360,6 +371,11 @@ footer {
 
 .footerBody {
   opacity: 50%;
+  color: white;
+}
+
+.footerBody:hover {
+  opacity: 100%;
 }
 
 footer ul {
@@ -383,19 +399,39 @@ footer li {
 
 .footerBottomRight {
   display: flex;
-  gap: 3.5vw;
+  flex-direction: column;
   padding-right: 3.5vw;
   color: #f0f0f5;
   font-size: 0.75rem;
   opacity: 50%;
   flex: 1;
-  line-height: 3vh;
+  line-height: 2vh;
+  padding-bottom: 2vh;
+  align-items: flex-end;
+}
+
+.lesserInfo {
+  color: white;
+}
+.lesserInfo:hover {
+  color: #858585;
+}
+
+.footerBottomRight span {
+  display: flex;
+  
 }
 
 .footerBottom {
   display: flex;
   padding-left: 3vw;
 }
+
+.footerTitle{
+  color: white;
+  font-size: 0.75rem;
+}
+
 
 /*--------------------------------------SWIPER*/
 
@@ -618,3 +654,5 @@ gap: 3vw;
   background-color: #cbcbcb28;
 text-align: center;
 }
+
+
