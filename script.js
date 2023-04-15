@@ -95,7 +95,7 @@ const nav = document.querySelector(".mainNavBar");
 let lastScrollY = window.scrollY;
 
 window.addEventListener("scroll", () => {
-  if (lastScrollY < window.scrollY && lastScrollY > 0.1) {
+  if (lastScrollY < window.scrollY && lastScrollY > 100) {
     nav.classList.add("nav--hidden", "navbar2");
     hiddenSpace.classList.remove("nav--hidden");
   } else {

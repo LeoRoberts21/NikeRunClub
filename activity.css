@@ -32,17 +32,15 @@ header {
   cursor: pointer;
 }
 
-
 .activity-picture {
   display: flex;
   width: 100%;
   margin-top: 3.5vh;
   margin-bottom: 3.5vh;
-  height:30vh;
+  height: 30vh;
   background-color: rgb(241, 240, 240);
   border-radius: 15px;
 }
-
 
 .activity-pics {
   padding-left: 17.6vw;
@@ -61,9 +59,7 @@ header {
   padding-top: 2vw;
 }
 
-
 .run-date {
-
   font-size: 1.5rem;
   font-weight: bolder;
   margin-bottom: 1vh;
@@ -109,8 +105,8 @@ header {
 }
 
 .bottomImages {
-padding-left: 17.6vw;
-padding-right: 17.6vw;
+  padding-left: 17.6vw;
+  padding-right: 17.6vw;
 }
 
 .bottomImage {
@@ -198,8 +194,8 @@ padding-right: 17.6vw;
 }
 
 .runLevelInner {
-padding: 3vw;
-padding-bottom: 1vw;
+  padding: 3vw;
+  padding-bottom: 1vw;
 }
 
 .levelDescript {
@@ -208,10 +204,9 @@ padding-bottom: 1vw;
 }
 
 .totalKm {
-padding-left: 0vw;
-font-size: 1.25rem;
+  padding-left: 0vw;
+  font-size: 1.25rem;
 }
-
 
 .slider-track {
   background-color: #2d2d2d4d;
@@ -235,8 +230,15 @@ font-size: 1.25rem;
 .hidden {
   display: none;
 }
+
+.nrc-activity-logo {
+  padding-left: 63vw;
+  width: 7vw;
+  height: auto;
+  position: relative;
+  bottom: 42vh;
+}
 /*---------MODAL----------*/
 
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
-
