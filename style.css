@@ -627,10 +627,10 @@ body {
 .map-row {
   display: flex;
 gap: 3vw;
+
 }
 
 .modal-maps {
-  padding-top: 5vh;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -640,7 +640,7 @@ gap: 3vw;
 }
 
 .modal-map-pic {
-  width: 17.5vw;
+  width: 28vw;
   border-radius: 15px;
 
 
@@ -648,10 +648,37 @@ gap: 3vw;
 
 .map-text {
   padding: 1vw;
-  width: 86%;
-  border-radius: 15px;
-  background-color: #cbcbcb28;
-text-align: center;
+  width: 93%;
+  height: 7.3vh;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #ffffffb1;
+
+display: flex;
+justify-content: flex-start;
+align-items: center;
+position: relative;
+bottom: 10.7vh;
 }
 
 
+/*-------ACTIVITY.CSS COPY */
+
+
+.left-overalls {
+  display: flex;
+  gap: 3vw;
+}
+
+.overall-descript {
+  opacity: 50%;
+  margin-top: 0.5vh;
+  font-size: 0.75rem;
+}
+
+.overall-numbers {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0%;
+  margin: 0px;
+}
