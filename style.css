@@ -97,14 +97,14 @@ a:active {
   font-size: 0.9rem;
   flex: 0.5;
   background-color: #dedede63;
-  padding:0.25vw;
+  padding: 0.25vw;
   border-radius: 80px;
 }
 
 .navBtnsStyle {
   display: flex;
   gap: 50px;
-border-radius: 80px;
+  border-radius: 80px;
   width: 7vw;
   height: 3.5vh;
   margin: 0px;
@@ -134,8 +134,6 @@ border-radius: 80px;
 
 .pfp {
   height: 5vh;
-
-
 }
 
 .user-pfp {
@@ -147,13 +145,12 @@ border-radius: 80px;
   text-align: end;
 }
 
-
 .hr2 {
   margin: 0px;
 }
 
 .navBtnsStyle:hover {
-  background-color:  rgba(255, 138, 49, 0.965);
+  background-color: rgba(255, 138, 49, 0.965);
 }
 
 .nav--hidden {
@@ -216,7 +213,7 @@ h1 {
 }
 
 .green {
-  background-color:  rgba(255, 138, 49, 0.965);
+  background-color: rgba(255, 138, 49, 0.965);
 }
 
 /*--------------------------------------COMMUNITY*/
@@ -262,7 +259,13 @@ h2 {
 
 .scrollPic {
   height: 400px;
-  width: 400px;
+  width: 100px;
+  background-color: #858585;
+}
+
+.map-img {
+  width: 2px;
+  height: 2px;
 }
 
 .viewScrollSection {
@@ -285,6 +288,50 @@ h2 {
 .activeBtn {
   background-color: #e1e1e1;
   color: #1f1f29;
+}
+
+.comBox {
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.com-img-outer {
+  height: 60%;
+  width: 87%;
+}
+
+.com-img-inner {
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.264);
+  position: relative;
+  top: 1vh;
+}
+
+.user-tag {
+  line-height: 0.75vh;
+  text-align: left;
+  padding-bottom: 1vh;
+  width: 72%;
+  padding-top: 3vh;
+}
+
+.user-tag p:first-child {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.user-tag p:last-child {
+  font-size: 0.8rem;
+  opacity: 50%;
+}
+
+.user-stats {
+  display: flex;
+  gap: 3vw;
+}
+
+.user-stats span{
+  text-align: left;
 }
 
 /*--------------------------------------COACHSEC*/
@@ -426,7 +473,6 @@ footer li {
 
 .footerBottomRight span {
   display: flex;
-  
 }
 
 .footerBottom {
@@ -434,11 +480,10 @@ footer li {
   padding-left: 3vw;
 }
 
-.footerTitle{
+.footerTitle {
   color: white;
   font-size: 0.75rem;
 }
-
 
 /*--------------------------------------SWIPER*/
 
@@ -462,6 +507,10 @@ body {
   height: 53vh;
 }
 
+.swiper-community {
+  width: 75%;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -476,17 +525,12 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
+  background-color: rgb(255, 255, 255);
 }
 
 .swiper {
   margin-left: auto;
   margin-right: auto;
-}
-
-.comBox {
-  flex-direction: column;
-  height: 50vh;
 }
 
 .mySwiper3 {
@@ -551,7 +595,6 @@ body {
 .modalFour::-webkit-scrollbar {
   display: none;
 }
-
 
 .overlay {
   position: absolute;
@@ -634,8 +677,7 @@ body {
 
 .map-row {
   display: flex;
-gap: 3vw;
-
+  gap: 3vw;
 }
 
 .modal-maps {
@@ -649,7 +691,6 @@ gap: 3vw;
 .modal-map-pic {
   width: 28vw;
   border-radius: 15px;
-
 }
 
 .map-text {
@@ -660,16 +701,14 @@ gap: 3vw;
   border-bottom-right-radius: 15px;
   background-color: #e2e2e2db;
 
-display: flex;
-justify-content: flex-start;
-align-items: center;
-position: relative;
-bottom: 10.7vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  bottom: 10.7vh;
 }
 
-
 /*-------ACTIVITY.CSS COPY */
-
 
 .left-overalls {
   display: flex;
