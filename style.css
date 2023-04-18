@@ -134,12 +134,19 @@ border-radius: 80px;
 
 .pfp {
   height: 5vh;
+
+
+}
+
+.user-pfp {
+  width: 3vw;
 }
 
 .pfpSizing {
   flex: 1;
   text-align: end;
 }
+
 
 .hr2 {
   margin: 0px;
@@ -469,6 +476,7 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  
 }
 
 .swiper {
@@ -636,13 +644,11 @@ gap: 3vw;
   align-items: center;
   font-weight: 400;
   font-size: 1.25rem;
-  
 }
 
 .modal-map-pic {
   width: 28vw;
   border-radius: 15px;
-
 
 }
 
@@ -652,7 +658,7 @@ gap: 3vw;
   height: 7.3vh;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #ffffffb1;
+  background-color: #e2e2e2db;
 
 display: flex;
 justify-content: flex-start;
