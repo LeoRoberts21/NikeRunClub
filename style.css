@@ -727,3 +727,38 @@ body {
   margin-bottom: 0%;
   margin: 0px;
 }
+
+/*-------------------HOVER EFFECT FOR COACHING SECTION----------*/
+
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  background: rgba(38, 38, 38, 0.523);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-weight: bolder;
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 30vh;
+margin-top: 0px;
+margin-bottom: 0px;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
